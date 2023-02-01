@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/687309d161.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Signup</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid shadow-lg p-5 text-white text-center fs-1 bg-img"
+    >
+      <h1 class="text-big" style="font-family: 'Caveat'" class>
+        Listyanti Dewi Astuti
+      </h1>
+      <h6>Software & Game Development Teacher</h6>
+    </div>
+    <header class="p-3 text-bg-dark border-bottom bg-light">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="index.html"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="index.html" class="nav-link px-2 text-secondary"
+                ><span class="fa-solid fa-house-chimney"></span>Home</a
+              >
+            </li>
+            <li>
+              <a href="learning-path.html" class="nav-link px-2 text-dark"
+                >Learning Paths</a
+              >
+            </li>
+            <li>
+              <a href="courses.html" class="nav-link px-2 text-dark">Course</a>
+            </li>
+            <li><a href="faq.html" class="nav-link px-2 text-dark">FAQs</a></li>
+            <li>
+              <a href="newsletters.html" class="nav-link px-2 text-dark"
+                >Newsletters</a
+              >
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <a href="login.html"
+              ><button type="button" class="btn btn-outline-dark me-2">
+                Login
+              </button></a
+            >
+            <a href="signup.html"
+              ><button type="button" class="btn btn-warning">Sign-up</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 mb-3 text-shadow-1">
+            Signup to access all courses
+          </h1>
+          <p class="col-lg-10 fs-4">
+            Students are required to signup using their email address to access
+            all courses. Contact the stuff whenever you have trouble signing up
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control form-control-dark"
+                id="email"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control form-control-dark"
+                id="password"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Sign up
+            </button>
+            <hr class="my-4" />
+            <small class="text-muted"
+              >By clicking Sign up, you agree to the terms of use.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="divider1"></div> -->
+
+    <div class="container-fluid p-4 bg-dark text-white text-center">
+      <footer>
+        &copy; <em id="2023"></em>Listyanti Dewi Astuti
+        <p class="text-small">dewi@smkn12malang.sch.id</p>
+      </footer>
+    </div>
+  </body>
+</html>

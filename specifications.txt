@@ -1,0 +1,33 @@
+You should also create a text file, specification.txt, which lists the 10 HTML tags and 5 CSS properties you’ve used, as well as a brief (one-sentence) description of how you chose to use JavaScript and Bootstrap.
+
+List of HTML tags
+- <p></p>
+- <img>
+- <h1></h1>
+- <h2></h2>
+- <h3></h3>
+- <h4></h4>
+- <div></div>
+- <header></header>
+- <footer></footer>
+- <form></form>
+- <input>
+- <button></button>
+- <a></a>
+- <ul></ul>
+- <li></li>
+
+List of CSS properties
+- border-color
+- box-shadow
+- text-shadow
+- width
+- height
+- background-images
+- font-size
+
+Use of JavaScript properties
+I use JavaScript function to create a poll by select the input radio using query selector and count the result whenever the submit button is clicked
+
+Use of Bootstrap
+I use bootstrap to style HTML elements and create layouts by using bootstrap classes such as cards, columns, and containers
